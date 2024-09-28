@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Крутой сайт</title>
+        <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+    <h1>Это очень большой заголовок!</h1>
+    <p>Это просто какой-то абзац текста</p>
+    <h2>А это заголовок поменьше</h2>
+             <ul>
+                   <li>А это точечки в списке (Это первая)</li>
+                   <li>А это вторая</li>
+             </ul>
+             <iframe src="https://www.meteoblue.com/en/weather/widget/daily/ip_romania_675514?geoloc=fixed&days=4&tempunit=CELSIUS&windunit=KILOMETER_PER_HOUR&precipunit=MILLIMETER&coloured=coloured&pictoicon=1&maxtemperature=1&mintemperature=1&windspeed=1&windgust=0&winddirection=1&uv=0&humidity=0&precipitation=1&precipitationprobability=1&spot=1&pressure=0&layout=light"  frameborder="0" scrolling="NO" allowtransparency="true" sandbox="allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox" style="width: 216px; height: 420px"></iframe>
+             <div><!-- DO NOT REMOVE THIS LINK --><a href="https://www.meteoblue.com/en/weather/week/ip_romania_675514?utm_source=daily_widget&utm_medium=linkus&utm_content=daily&utm_campaign=Weather%2BWidget" target="_blank" rel="noopener">meteoblue</a></div> 
+    
+             <div style="position:relative;overflow:hidden;"><a href="https://yandex.kz/maps/ru/162/almaty/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Алматы</a><a href="https://yandex.kz/maps/ru/162/almaty/?ll=76.923524%2C43.235481&utm_medium=mapframe&utm_source=maps&z=13.74" style="color:#eee;font-size:12px;position:absolute;top:14px;">Яндекс Карты</a><iframe src="https://yandex.kz/map-widget/v1/?ll=76.923524%2C43.235481&z=13.74" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>         
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWestySFdjEYa_HB1RMZVgx07ds7WXNUpLaQ&s" alt="Image 1">
+</body>
+</html>
