@@ -1,0 +1,49 @@
+body {
+    font-family: inherit; /* Семейство шрифтов */
+    font-size: 11px; /* Размер основного шрифта в <p></p>  */
+    background-color: white; /* Цвет фона веб-страницы */
+    color: #333333; /* Цвет основного текста */ 
+}
+h1 {
+    border: 1px solid white;
+    color: black; /* Цвет заголовка */
+    font-size: 24px; /* Размер шрифта в пунктах */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+}
+h2 {
+    text-decoration-color:#FD98FB ;
+    text-decoration-line: underline;
+    color: #FD98FB;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+    color:white;
+}
+p {
+    color:#FD98FB
+}
+
+@keyframes color-change {
+    0% {
+      color: red;
+    }
+  
+    25% {
+      color: orange;
+    }
+    50% {
+        color: yellow
+    }
+    75% {
+        color: green;
+    }
+
+    100% {
+      color: blue;
+    }
+}
+
+h1:hover {
+    animation: color-change 3s infinite;
+}
